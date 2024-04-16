@@ -10,8 +10,8 @@ def main():
         return arg1 + arg2
     if sys.argv[2] == "*":
         return arg1 * arg2
-    if sys.argv[2] == "-":
-        return arg1 - arg2
+    # if sys.argv[2] == "-":
+    return arg1 - arg2
 
 
 
